@@ -1,0 +1,229 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end of reset stylesheet */
+
+
+/* -------just for planning-------*/
+
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+/*-------------- */
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue";
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer{
+  text-align: center;
+}
+.profilepic{
+  background: url(http://i.imgur.com/N0u7PO5.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width:20em;
+  margin: 0 auto;
+  display: block;
+  
+border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 17px none #050a29;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+}
+
+.masthead{
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/tGYLuav.jpg');
+ /* border-style: dotted dashed;
+  border-top: 1em solid #594F49;*/
+  /* background-repeat: no-repeat;*/
+     background-size: cover; 
+}
+.masthead-intro{
+  margin-bottom: 0em;
+  color: #333300;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  font-family: "Gentium Book Basic", Georgia, serif;
+}
+.masthead-heading{
+  margin-top: 0.1em;
+  font-size: 4.5em;
+  color: #333300;
+  font-weight: bolder;  
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+   letter-spacing: -.02em;
+    text-transform: ;
+}
+.introduction-section,
+.location-section,
+.questions-section,
+.content-footer{
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+.content-footer{
+  max-width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  background-color: #594F49;
+  max-width: 100%;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.content-footer > p{
+  color: white;
+}
+.social > li {
+  display: inline-block;
+  padding: 8px;
+}
+.social{
+  padding: 0;
+}
+.introduction-section > p,
+.location-section  p,
+.questions-section p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 100;
+    letter-spacing: .02rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+.questions-section > h2{
+  /* typography declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 1em 0 1em 0
+}
+h1{
+  color: #110040;
+}
+h2{
+  color: #22007F;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* unvisited link */
+a:link {
+    color: indigo;
+}
+
+/* visited link */
+a:visited {
+    color: purple;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
+
+section > h1{
+  border-bottom: thick solid indigo;
+  font-size: x-large;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 320px) {
+  .masthead {
+    padding: 10em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+.projects-section {
+  max-width: 75rem;
+  margin: 3rem;
+  text-align:center;
+}
+.projects-list {
+  display: inline-block;
+  text-align: center;
+}
