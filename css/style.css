@@ -90,12 +90,13 @@ border: 17px none #050a29;
 }
 
 .masthead{
-  padding: 6em 0;
+  padding: 21rem 0rem;
   background-image: url('http://i.imgur.com/tGYLuav.jpg');
  /* border-style: dotted dashed;
   border-top: 1em solid #594F49;*/
   /* background-repeat: no-repeat;*/
-     background-size: cover; 
+  background-size: cover; 
+  padding-top: 10rem;
 }
 .masthead-intro{
   margin-bottom: 0em;
