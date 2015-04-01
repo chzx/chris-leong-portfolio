@@ -224,7 +224,8 @@ section > h1{
   margin: 3rem;
   text-align:center;
 }
-.projects-list {
+.projects-list > li{
   display: inline-block;
-  text-align: center;
+  width: 49.7%;
+  /* float: left; */
 }
