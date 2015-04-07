@@ -90,13 +90,13 @@ border: 17px none #050a29;
 }
 
 .masthead{
-  padding: 21rem 0rem;
+  padding: 10em 0;
   background-image: url('http://i.imgur.com/tGYLuav.jpg');
  /* border-style: dotted dashed;
   border-top: 1em solid #594F49;*/
-  /* background-repeat: no-repeat;*/
+  background-repeat: no-repeat;
   background-size: cover; 
-  padding-top: 10rem;
+  padding-bottom: 22rem;
 }
 .masthead-intro{
   margin-bottom: 0em;
@@ -226,6 +226,7 @@ section > h1{
 }
 .projects-list > li{
   display: inline-block;
-  width: 49.7%;
+  width: 32.7%;
   /* float: left; */
+
 }
