@@ -227,6 +227,7 @@ section > h1{
 .projects-list > li{
   display: inline-block;
   width: 32.7%;
+  padding-bottom: 1.5rem;
   /* float: left; */
 
 }
